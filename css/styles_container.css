@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+aside, nav, footer, header, section, main {
+    display: block;
+}
+
+body {
+    color: #434755;
+    /* font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif; */
+}
+
+ul {
+    list-style: none;
+}
+
+/* img, svg {
+    vertical-align: top;
+} */
+
+label {
+    cursor: pointer;
+}
+
+.container-web {
+    width: 1042px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+

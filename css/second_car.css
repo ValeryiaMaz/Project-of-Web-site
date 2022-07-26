@@ -1,0 +1,80 @@
+/* CAROUSEL */
+.second-carousel {
+    margin-bottom: 37px;
+    text-align: center;
+    display: flex;
+   
+    margin-right: 60px;
+    z-index: 1;
+}
+
+.owl-carousel.second-banner {
+    width: 100%;
+}
+
+.second-banner .owl-item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    box-sizing: border-box;
+    color: #000000;
+    white-space: nowrap;
+    width: auto !important;
+    position: relative;
+    z-index: 1;
+    border-bottom: 4px solid #fffaeb;
+    transition: 0.2s;
+
+}
+.second-banner .owl-item:hover {
+    font-weight: 800;
+    border-bottom: 4px solid #F6C142;
+}
+.second-banner .carousel {
+    margin: 0 60px;
+}
+
+.second-banner .owl-nav {
+    top: -50px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    
+}
+
+.second-banner .owl-nav button.owl-next {
+    margin-top: -10px;
+}
+
+.second-banner .owl-nav button.owl-prev {
+    display: none;
+}
+
+.second-carousel {
+vertical-align: top;
+}
+
+
+.second-banner span {
+  margin-top: -10px;
+
+}
+.second-banner span:hover {
+    font-weight: 800;
+    border-bottom: 4px solid #F6C142;
+}
+.second-banner .owl-next {
+    right: -60px;
+    
+}
+
+.second-banner .owl-prev {
+    left: -60px;
+}
+
+
+
+
+

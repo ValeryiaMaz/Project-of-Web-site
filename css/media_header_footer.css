@@ -1,0 +1,137 @@
+@media (max-width: 576px) {
+    .container-web {
+        max-width: 85%;
+        font-size: 16px;
+    }
+
+    .header-phone_number {
+        display: none;
+    }
+
+    .header-icon {
+        display: none;
+    }
+
+    .header-phone {
+        display: none;
+    }
+
+    .header-logo {
+        margin-left: 0;
+        transform: scale(0.8);
+        z-index: 2;
+        background-color:#ffffff;
+    }
+
+    .header-row {
+        text-align: left;
+        border-bottom: 1px solid #EBEBEB;
+        padding-bottom: 15px;
+        z-index: 4;
+        background-color:#ffffff;
+        position: relative;
+    }
+
+    .header-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+        padding: 70px 0 0 0;
+        z-index: 0;
+        display: block;
+        top: -100%;
+        transition: 0.9s;
+    }
+
+    .header-nav.active {
+        top: 86px;
+        z-index: 1;
+        padding-top: 20px;
+        color: #000000;
+        border: 1px solid #EBEBEB;
+    }
+
+    .header-nav_ul {
+        padding-bottom: 20px;
+        border-bottom: none;
+        z-index: 3;
+        color:#000000;
+    }
+
+    .header-burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        text-align: right;
+        z-index: 2;
+        transition: 0.2s;
+    
+    }
+
+    .header-burger span {
+        content: "";
+        background-color: #000000;
+        position: absolute;
+        margin-left: 20%;
+        width: 80%;
+        height: 2px;
+        left: 0;
+        top: 40%;
+        text-align: right;
+
+    }
+
+    .header-burger:before,
+    .header-burger:after {
+        content: " ";
+        background-color: #000000;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+    }
+
+    .header-burger:before {
+        top: 0;
+    }
+
+    .header-burger:after {
+        bottom: 0;
+    }
+
+    .header-burger.active span {
+        margin-left: 0;
+    }
+
+    .header-row {
+        background-color: #ffffff;
+        color:#000000;
+        z-index: 3;
+    }
+
+    body.lock {
+        overflow: hidden;
+    }
+
+    .footer-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-links_block {
+        align-items: center;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .footer-icons {
+        align-items: center;
+        text-align: center;
+    }
+
+}

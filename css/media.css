@@ -1,0 +1,55 @@
+@media (max-width: 576px) {
+    .container-web {
+        max-width: 85%;
+        font-size: 16px;
+    }
+    .contact-inner {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .contact-underheader{
+        font-size: 18px;
+    }
+
+    .contact-header {
+        margin-top: 0;
+        padding-top: 30px;
+        font-size: 38px;
+    }
+
+    .background-img-top {
+        display: none;
+    }
+    .background-img-buttom {
+        display: none;
+    }
+
+    .contact-button {
+        width: 100%;
+    }
+    .contact-data {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-input-block {
+display: block;
+    }
+    
+    .contact-input_adress{
+        margin-bottom: 30px;
+    }
+
+    .contact-input {
+width: 100%;
+    }
+
+    .contact-input_companyname {
+        margin-bottom: 30px;
+    }
+}
