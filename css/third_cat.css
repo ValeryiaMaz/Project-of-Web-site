@@ -1,0 +1,62 @@
+/* CAROUSEL */
+.third-carousel {
+    margin-bottom: 37px;
+    text-align: center;
+    display: flex;
+    z-index: 1;
+}
+
+
+.third-banner .owl-item {
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    height: 286px;
+    -webkit-box-shadow: 5px 5px 26px 9px rgba(0, 0, 0, 0.02);
+    -moz-box-shadow: 5px 5px 26px 9px rgba(0, 0, 0, 0.02);
+    box-shadow: 5px 5px 26px 9px rgba(0, 0, 0, 0.02);
+    transition: 0.2s;
+    width: 100%;
+
+}
+.third-banner .owl-item:hover {
+    transform: scale(0.9);
+}
+
+.third-banner .owl-nav {
+    position: relative;
+    top: 0;
+   
+ 
+}
+
+.third-banner .owl-nav button.owl-next {
+    margin-right: 46%;
+}
+
+.third-banner .owl-nav button.owl-prev {
+    margin-left: 46%;
+}
+
+.third-banner .owl-dots {
+    margin-top: 0;
+    vertical-align: middle;
+    top: -50%;
+    
+}
+
+.third-banner .owl-dot {
+    margin-top: -20px;
+    color: #000000;
+    background: #000000;
+ 
+}
+
+.third-banner.owl-theme .owl-dots .owl-dot.active span,
+.third-banner.owl-theme .owl-dots .owl-dot.active span {
+    background: #000000;
+}
+
+.third-banner.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+}

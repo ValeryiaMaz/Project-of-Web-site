@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/styles_container.css">
     <link rel="stylesheet" href="css/media_header_footer.css">
     <link rel="stylesheet" href="css/second_car.css">
+    <link rel="stylesheet" href="css/third_cat.css">
 </head>
 
 <body>
@@ -236,8 +237,36 @@
                 </nav> -->
 
 
+<!-- THIRD CAROUSEL -->
 
-                <div class="courses-body">
+                <div class="third-carousel">
+
+                    <div class="owl-carousel third-banner owl-theme">
+                        <a href="#" style="width:auto"> 
+                            <img src="img/Fundamentals of Finances.png" alt="Fundamentals of Finances" class="courses-pic">
+                            <div class="curses-discrip">Fundamentals of Finances & Mon...</div>
+                        </a>
+                        <a href="#" style="width:auto"> 
+                            <img src="img/How To Achieve Financial Freedom.png" alt="Financial Freedom" class="courses-pic">
+                            <div class="curses-discrip">How To Achieve Financial Freedom</div>
+                        </a>
+                        <a href="#" style="width:auto"> 
+                            <img src="img/Basics of Budgeting.png" alt="Basics of Budgeting" class="courses-pic">
+                            <div class="curses-discrip">Basics of Budgeting & Income Flow Money</div>
+                        </a>
+                        <a href="#" style="width:auto"> 
+                            <img src="img/Unlock Your Potential.png" alt="Unlock Your Potential" class="courses-pic">
+                            <div class="curses-discrip">Unlock Your Potential & Reach Your Dream...</div>
+                        </a>
+                        <a href="#" style="width:auto"> 
+                            <img src="img/Fundamentals of Finances.png" alt="Fundamentals of Finances" class="courses-pic">
+                            <div class="curses-discrip">Fundamentals of Finances & Mon...</div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- <div class="courses-body">
 
                     <a href="index_courses.html" class="courses-block">
                         <img src="img/Fundamentals of Finances.png" alt="Fundamentals of Finances" class="courses-pic">
@@ -260,14 +289,14 @@
                     </a>
 
 
-                </div>
+                </div> -->
 
-                <div class="courses-slider">
+                <!-- <div class="courses-slider">
                     <img src="img/Slider_body.svg" alt="slider" class="courses-slide">
-                </div>
+                </div> -->
 
                 <div class="courses-button">
-                    <a href="#" class="">Browse All Courses</a>
+                    <a href="index_courses.html" class="">Browse All Courses</a>
                 </div>
 
             </div>
@@ -281,17 +310,17 @@
 
                 <div class="popular-courses">
 
-                    <a href="#" class="popular-block">
+                    <a href="index_courses.html" class="popular-block">
                         <img src="img/Financial Literacy.svg" alt="Financial Literacy">
                         <div class="popular-text">Financial Literacy</div>
                     </a>
 
-                    <a href="#" class="popular-block">
+                    <a href="index_courses.html" class="popular-block">
                         <img src="img/Cryptocurrency.svg" alt="Cryptocurrency">
                         <div class="popular-text">Cryptocurrency</div>
                     </a>
 
-                    <a href="#" class="popular-block">
+                    <a href="index_courses.html" class="popular-block">
                         <img src="img/Metaverse.svg" alt="Metaverse">
                         <div class="popular-text">Metaverse</div>
                     </a>
@@ -300,17 +329,17 @@
 
                 <div class="popular-courses">
 
-                    <a href="#" class="popular-block">
+                    <a href="index_courses.html" class="popular-block">
                         <img src="img/Financial History.svg" alt="Financial History">
                         <div class="popular-text">Financial History</div>
                     </a>
 
-                    <a href="#" class="popular-block">
+                    <a href="index_courses.html" class="popular-block">
                         <img src="img/Monetary Systems.svg" alt="Monetary Systems">
                         <div class="popular-text">Monetary Systems</div>
                     </a>
 
-                    <a href="#" class="popular-block">
+                    <a href="index_courses.html" class="popular-block">
                         <img src="img/NFT.svg" alt="NFT">
                         <div class="popular-text">NFT</div>
                     </a>
@@ -343,7 +372,7 @@
                         <div class="last-underheader">As the economy grows and technology develops, the career landscape
                             shifts in response. The U.S. Department of Labor’s Bureau of Labor Statistics (BL...</div>
                         <div class="courses-button last">
-                            <a href="#" class="">Join Now</a>
+                            <a href="index_courses.html" class="">Join Now</a>
                         </div>
                     </div>
                     <div class="courses-last-img">
@@ -368,7 +397,7 @@
                         <div class="last-underheader">As the economy grows and technology develops, the career landscape
                             shifts in response. The U.S. Department of Labor’s Bureau of Labor Statistics (BL...</div>
                         <div class="courses-button last">
-                            <a href="#" class="">Join Now</a>
+                            <a href="index_courses.html" class="">Join Now</a>
                         </div>
                     </div>
 
@@ -387,7 +416,7 @@
                         <div class="last-underheader">As the economy grows and technology develops, the career landscape
                             shifts in response. The U.S. Department of Labor’s Bureau of Labor Statistics (BL...</div>
                         <div class="courses-button last">
-                            <a href="#" class="">Join Now</a>
+                            <a href="index_courses.html" class="">Join Now</a>
                         </div>
                     </div>
 
@@ -407,7 +436,7 @@
                     <div class="join-title">Start Learning Today!</div>
                     <div class="join-text">A great place for those who want a grow and succeed in their life.</div>
                     <div class="courses-button klick">
-                        <a href="#" class="">Join Now</a>
+                        <a href="index_courses.html" class="">Join Now</a>
                     </div>
                 </div>
             </div>
@@ -521,6 +550,17 @@
                 margin: 65,
                 nav: true,
                 dots: false, 
+        });
+        });
+
+        $(document).ready(function () {
+            $(".third-banner").owlCarousel({
+                items: 4,
+                nav: true,
+                margin: 30,
+                dots: true, 
+                autoWidth: true,
+                navText: ["<img src='img/third_car_left.svg'>", "<img src='img/third_car_right.svg'>"] 
         });
         });
 
