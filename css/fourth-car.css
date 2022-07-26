@@ -1,0 +1,95 @@
+.fourth-carousel {
+    margin-bottom: 37px;
+    text-align: center;
+    display: flex;
+    z-index: 1;
+    width: 100%;
+    position: relative;
+    transition: 0.3s;
+}
+
+.fourth-banner.owl-carousel .owl-stage {
+    margin-bottom: 30PX;
+}
+
+
+.fourth-banner.owl-item {
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    -webkit-box-shadow: 5px 5px 26px 9px rgba(0, 0, 0, 0.02);
+    -moz-box-shadow: 5px 5px 26px 9px rgba(0, 0, 0, 0.02);
+    box-shadow: 5px 5px 26px 9px rgba(0, 0, 0, 0.02);
+    transition: 0.3s;
+    width: 100%;
+
+}
+
+
+.fourth-banner .owl-nav {
+    position: absolute;
+    top: 80%;
+}
+
+.fourth-banner .owl-nav button.owl-next {
+    margin-right: 46%;
+}
+
+.fourth-banner .owl-nav button.owl-prev {
+    margin-left: 46%;
+}
+
+
+.fourth-banner .owl-dots {
+  position: absolute;
+  top: 78%;
+  left: 48%;
+  
+ 
+}
+
+.fourth-banner.owl-theme .owl-dots .owl-dot.active span,
+.fourth-banner.owl-theme .owl-dots .owl-dot.active span {
+    background: #ffffff;
+}
+
+.fourth-banner.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+}
+
+
+/* BODY */
+.fourth-carousel-text_inside {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 195px;
+    width: 400px;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.last-header.white {
+color:#FFFFFF;
+}
+
+.last-underheader.white {
+    color:#FFFFFF;
+}
+.courses-button.absol {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    left: 195px;
+    width: 400px;
+    text-align: left;
+    margin-top: 60px;
+}
+
+@media (max-width: 576px) {
+    .fourth-banner.owl-theme .owl-dots .owl-dot span {
+        width: 6px;
+        height: 6px;
+    }
+}

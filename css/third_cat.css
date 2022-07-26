@@ -6,6 +6,10 @@
     z-index: 1;
 }
 
+.third-banner.owl-carousel .owl-stage {
+    margin-bottom: 30PX;
+}
+
 
 .third-banner .owl-item {
     background-color: #FFFFFF;
@@ -25,8 +29,6 @@
 .third-banner .owl-nav {
     position: relative;
     top: 0;
-   
- 
 }
 
 .third-banner .owl-nav button.owl-next {
@@ -41,6 +43,7 @@
     margin-top: 0;
     vertical-align: middle;
     top: -50%;
+
     
 }
 
@@ -59,4 +62,12 @@
 .third-banner.owl-theme .owl-dots .owl-dot span {
     width: 10px;
     height: 10px;
+}
+
+
+@media (max-width: 576px) {
+    .third-banner.owl-theme .owl-dots .owl-dot span {
+        width: 6px;
+        height: 6px;
+    }
 }
