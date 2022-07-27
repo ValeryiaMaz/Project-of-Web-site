@@ -179,7 +179,7 @@
 .color-background{
     height: 409px;
     background: #EFF8FE;;
-    z-index: -1;
+    z-index: -2;
     position: absolute;
     width: 100%;
     border-top: 1px solid #EBEBEB;
@@ -388,12 +388,14 @@ option[value=""][disabled] {
     position: absolute;
     left: 50px;
     top:38px;
+    z-index: -1;
 }
 
 .background-img-buttom {
     position: absolute;
     left: 1200px;
     top:554px;
+    z-index: -1;
 }
 
 /* MEDIA */
